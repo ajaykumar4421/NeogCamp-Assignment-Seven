@@ -1,0 +1,77 @@
+:root{
+    font-family: 'Open Sans', sans-serif;
+    --nav--textcolor : #FCA5A5;
+    --text--color:#4338CA;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FDE68A;
+}
+
+.head-container{
+    padding: 20px;
+    text-align: center;
+    color: var(--text--color);
+    font-size: 3rem;
+    font-family: sans-serif;
+    border: 3px solid grey;
+    background-color:var(--nav--textcolor);
+}
+
+#textarea{
+    height: 100px;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 300px;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.btn-translate{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+#click-translate {
+    background-color: var(--text--color);
+    padding: 3px;
+    margin-left: 300px;
+    font-weight: bold;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+#output{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:1000;
+}
+
+#btn-output{
+    height: 70px;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 300px;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.footer-text .--pre{
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+    color: var(--text--color);
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid grey;
+    background-color:var(--nav--textcolor);  
+}
